@@ -1,4 +1,4 @@
-PROGRAM_NAME := SoundSynth
+PROGRAM_NAME := SoundSynth.out
 
 # Настройки компиляции
 CC := gcc

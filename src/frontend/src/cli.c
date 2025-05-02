@@ -18,14 +18,18 @@ void Draw(int current_note) {
     if (current_note) {
         printw("Current note: ");
         switch(current_note) {
-            case C4_NOTE: printw("C4"); break;
-            case D4_NOTE: printw("D4"); break;
-            case E4_NOTE: printw("E4"); break;
-            case F4_NOTE: printw("F4"); break;
-            case G4_NOTE: printw("G4"); break;
-            case A4_NOTE: printw("A4"); break;
-            case B4_NOTE: printw("B4"); break;
-            case C5_NOTE: printw("C5"); break;
+            case C2_NOTE: printw("C2"); break;
+            case CS2_NOTE: printw("CS2"); break;
+            case D2_NOTE: printw("D2"); break;
+            case DS2_NOTE: printw("DS2"); break;
+            case E2_NOTE: printw("E2"); break;
+            case F2_NOTE: printw("F2"); break;
+            case FS2_NOTE: printw("FS2"); break;
+            case G2_NOTE: printw("G2"); break;
+            case GS2_NOTE: printw("GS2"); break;
+            case A2_NOTE: printw("A2"); break;
+            case AS2_NOTE: printw("AS2"); break;
+            case B2_NOTE: printw("B2"); break;
             default: printw("Unknown");
         }
         printw(" (%d Hz)", current_note);

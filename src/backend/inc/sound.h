@@ -11,10 +11,10 @@
 
 // Defines
 #define TWO_PI                (2.0 * M_PI)
-#define BUFFER_SIZE_MS        100  // Размер буфера в миллисекундах
+//#define BUFFER_SIZE_MS        100  // Размер буфера в миллисекундах
 #define SAMPLE_RATE           44100
 #define AMPLITUDE             127
-#define AUDIO_BUFFER_SAMPLES  2048
+#define AUDIO_BUFFER_SAMPLES  100
 
 
 
